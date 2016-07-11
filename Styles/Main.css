@@ -1,0 +1,75 @@
+/* Main container styling*/
+#main {
+  width: 90%;
+  min-width: 500px;
+  margin: 10px auto;
+  height: 100%;
+  overflow: hidden;
+}
+#main>div {
+  min-height: 300px;
+  margin: 10px auto;
+  padding-bottom: 50px;
+  text-align: center;
+}
+#main h1 {
+  font-size: 200%;
+}
+#main button {
+  border-radius: 3px;
+}
+
+/* Options group styling*/
+#infopanel {
+  margin-bottom: 20px;
+}
+#title {
+  display: block;
+}
+#title h3 {
+  font-size: 150%;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+#fileaction, #dataheader, #datasep, #dataquote {
+  margin: auto 15px;
+  text-align: center;
+  font-style: italic;
+  font-weight: 600;
+  display: inline-block;
+}
+#fileaction button {
+  margin: auto 5px;
+  border-radius: 5px;
+}
+#fileaction>label {
+  border-radius: 5px;
+}
+#fileinput {
+  display: none;
+}
+button>span.value {
+  margin-right: 10px;
+}
+label>span.value {
+  margin-right: 10px;
+}
+.outering {
+  border: 1px silver dashed;
+  display: inline-block;
+  padding: 5px;
+  margin: 10px 5px;
+  border-radius: 15px;
+}
+
+/* Data area styling*/
+tr.info {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+thead {
+  text-align: center;
+}
+tbody {
+  text-align: left;
+}
